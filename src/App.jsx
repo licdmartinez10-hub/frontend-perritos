@@ -136,7 +136,7 @@ const Home = ({ favorites, toggleFavorite }) => {
 
   return (
     <div style={{ padding: '20px', maxWidth: '1200px', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
-      <h1 style={{ textAlign: 'center', color: '#333' }}>🐶 Adopta un Perrito</h1>
+      <h1 style={{ textAlign: 'center', color: '#333' }}>🐶 Adopta un perrito en situación de calle</h1>
       
       {error && <div style={{background: '#ffebee', color: '#c62828', padding: '10px', borderRadius: '5px', textAlign: 'center'}}>{error}</div>}
 
