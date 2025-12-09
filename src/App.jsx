@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link, useParams } from 'react-router-dom';
 
 // --- CONFIGURACIÓN DE LA URL DEL BACKEND (AZURE) ---
-// Esta es la dirección de tu cerebro PHP en la nube.
-// Si tu App Service se llama diferente, cambia "api-perritos-dani" por tu nombre real.
+// Esta es la dirección de tu PHP en la nube.
 const API_URL = "https://api-perritos-dani.azurewebsites.net/index.php/dogs";
 
 // --- COMPONENTE: DETALLE DEL PERRITO ---
