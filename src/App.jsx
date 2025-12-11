@@ -211,7 +211,7 @@ function App() {
 }
 
 // Estilos base
-const btnStyle = { padding: '10px 20px', borderRadius: '5px', border: '1px solid #ccc', cursor: 'pointer', background: '#fff', fontSize: '0.9rem', fontWeight: 'bold' };
+const btnStyle = { padding: '10px 20px', borderRadius: '5px', border: '1px solid #ccc', cursor: 'pointer', background: '#fff', color: '#333', fontSize: '0.9rem', fontWeight: 'bold' };
 const inputStyle = { padding: '12px', borderRadius: '5px', border: '1px solid #ddd', fontSize: '1rem' };
 const tagStyle = { background: '#e9ecef', color: '#495057', padding: '5px 10px', borderRadius: '15px', fontSize: '0.8rem', marginRight: '5px', display: 'inline-block', marginBottom: '5px' };
 
